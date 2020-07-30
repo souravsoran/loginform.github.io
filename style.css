@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../image/img8.jpg");
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    background: #ffffff;
+    margin: 6% auto;
+    padding: 5px;
+    box-shadow: 0 0 20px 0 #ff2142f3;
+    position: relative;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 220px;
+    box-shadow: 0 0 20px 5px #ff6124f1;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    background:linear-gradient(to right, #ff6e0e, #fc5f5f);
+    position: absolute;
+    border-radius: 30px;
+    transition: .5s;
+}
+.social{
+    margin: 30px auto;
+    text-align: center;
+}
+.social i {
+    margin: 0 12px;
+}
+.input-group{
+    top: 200px;
+    width: 280px;
+    position: absolute;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 12px;
+    margin: 7px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    margin: 10px auto;
+    background: #ff6e0e;
+    border: 0;
+    outline: none;
+    display: block;
+    border-radius: 30px;
+
+}
+.ckech-box{
+    margin: 20px 0;
+}
+span{
+    color:gray;
+    font-size: 16px;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 450px;
+}
